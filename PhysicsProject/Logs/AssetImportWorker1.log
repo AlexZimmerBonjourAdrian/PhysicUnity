@@ -15,7 +15,7 @@ E:/PhysicUnity/PhysicsProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58648
+61456
 Successfully changed project path to: E:/PhysicUnity/PhysicsProject
 E:/PhysicUnity/PhysicsProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/PhysicUnity/PhysicsProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11940] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1777127373 [EditorId] 1777127373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4PP8T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18340] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2069273855 [EditorId] 2069273855 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4PP8T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11940] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1777127373 [EditorId] 1777127373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4PP8T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18340] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2069273855 [EditorId] 2069273855 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4PP8T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 135.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 720.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,537 +67,42 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004634 seconds.
+Registered in 0.133506 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 140.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 168.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  2.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (976ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (2580ms)
+		BeginReloadAssembly (1323ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (710ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (1323ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (164ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (431ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (510ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (141ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006463 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.603 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1604ms)
-		BeginReloadAssembly (180ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1247ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (512ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (501ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (350ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (81.2 KB). Loaded Objects now: 3573.
-Memory consumption went from 110.3 MB to 110.2 MB.
-Total: 5.033200 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.465600 ms MarkObjects: 4.119100 ms  DeleteObjects: 0.131200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 63800.565279 seconds.
-  path: Assets/TwitchJamRespaldo/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(15bf86b6f9b448944aa735e52a4ad7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/UniversalRenderPipelineGlobalSettings.asset using Guid(15bf86b6f9b448944aa735e52a4ad7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57265c35f868d2555ec85d504b56e60') in 0.875999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TwitchJamRespaldo/Main Camera Profile.asset
-  artifactKey: Guid(a2c5621595413ca4a81d437f1d534aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Main Camera Profile.asset using Guid(a2c5621595413ca4a81d437f1d534aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10445c89244076458e0e31b79dabafe') in 0.014706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/TwitchJamRespaldo/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9eed57b2a38ea50d63037f7455b12f') in 0.015289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 198.249969 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/PickUps/Pick-UP Weapon PickUp/PickUp-Calico Variant.prefab
-  artifactKey: Guid(45a615bac2670aa4bb2980a9723cb1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/PickUps/Pick-UP Weapon PickUp/PickUp-Calico Variant.prefab using Guid(45a615bac2670aa4bb2980a9723cb1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad28ee0cbe7ce9e9048ab70237e58c0') in 0.039237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/PickUps/Pick-UP Weapon PickUp/PickUp-M4Shootgun Variant.prefab
-  artifactKey: Guid(a5c16c15a9f53374887eec301b5c7322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/PickUps/Pick-UP Weapon PickUp/PickUp-M4Shootgun Variant.prefab using Guid(a5c16c15a9f53374887eec301b5c7322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342302567b1e368ec25ada0c480abbb3') in 0.005151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/PickUps/Pick-UP Weapon PickUp/PickUp-MP5K Variant.prefab
-  artifactKey: Guid(50231bd46755baa4ab50bf842fa36eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/PickUps/Pick-UP Weapon PickUp/PickUp-MP5K Variant.prefab using Guid(50231bd46755baa4ab50bf842fa36eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac2021d307bf79382790b8a5b08056c') in 0.005933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.785886 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(03be3ff1c9b05634184877787fac8fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/NestedParent_Unpack.prefab using Guid(03be3ff1c9b05634184877787fac8fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e869b848adf4aa5b8dac2e1a55b1142') in 0.003693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/Ui Variant.prefab
-  artifactKey: Guid(756e18598f18e6043ba8e85f596320e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/Ui Variant.prefab using Guid(756e18598f18e6043ba8e85f596320e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2645202a791f4511253d9d67a786a3bb') in 0.004794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/PlayerFollowCamera.prefab
-  artifactKey: Guid(7c6925baa1788fb478d5587869ea4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/PlayerFollowCamera.prefab using Guid(7c6925baa1788fb478d5587869ea4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba282f154c1d2a301e1a502962dbbb5a') in 0.017320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.848649 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/Menu/OptionMenu.prefab
-  artifactKey: Guid(6ba62439b0adb994093098e3192d1bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/Menu/OptionMenu.prefab using Guid(6ba62439b0adb994093098e3192d1bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072f0b80095e2f240d4d1736748ee1bc') in 0.022176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/Menu/Pause.prefab
-  artifactKey: Guid(02ffa47588f0dbf41b1fe2cd86e408b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/Menu/Pause.prefab using Guid(02ffa47588f0dbf41b1fe2cd86e408b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdc0b351ba6cf0c392d60b139be6b90') in 0.006684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 121.068766 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/LevelObject/Managers.prefab
-  artifactKey: Guid(6fd67df8b2c53084bac49cbb6b59912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/LevelObject/Managers.prefab using Guid(6fd67df8b2c53084bac49cbb6b59912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378753b1f9d2064902a9effa11ddf752') in 0.004595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.677886 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/GameDevLab/Moving Target.prefab
-  artifactKey: Guid(82442747d3524a14eb3ecf179524bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/GameDevLab/Moving Target.prefab using Guid(82442747d3524a14eb3ecf179524bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be34827e3d1b4467734d979a09f70d46') in 0.052510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/GameDevLab/Standing Target.prefab
-  artifactKey: Guid(a00fa40b779e91f4cbec02523e3a5809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/GameDevLab/Standing Target.prefab using Guid(a00fa40b779e91f4cbec02523e3a5809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710caa68adb69a4bfe01aeb443ceb1c4') in 0.004824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.420906 seconds.
-  path: Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Nature-Outside/Big Pine Tree (alt).prefab
-  artifactKey: Guid(aad4357c5f5f7d742a195d857e9f2885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Nature-Outside/Big Pine Tree (alt).prefab using Guid(aad4357c5f5f7d742a195d857e9f2885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e143df88fe95d2f393372b77c996db9f') in 0.154632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Models/ChristmasSet.fbx
-  artifactKey: Guid(8705c4bf61856ac41aba9d61ffd597c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Models/ChristmasSet.fbx using Guid(8705c4bf61856ac41aba9d61ffd597c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8d7caae2a14ec0cf52f8d72cccaf43') in 1.888688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/Weapons/PlayHolderWeapon/M4Shootgun-TestModel.prefab
-  artifactKey: Guid(2be08fa4d0455d540925f44206a20a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/Weapons/PlayHolderWeapon/M4Shootgun-TestModel.prefab using Guid(2be08fa4d0455d540925f44206a20a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b5799c23cd92a799a13de92ca89e55') in 0.006657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TwitchJamRespaldo/Shared/Environment/Prefabs/LongOverhangWall.prefab
-  artifactKey: Guid(c5aa08609f3d9f547aca9af1d6c18070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Shared/Environment/Prefabs/LongOverhangWall.prefab using Guid(c5aa08609f3d9f547aca9af1d6c18070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f1109758804976dac1e8f4bdb5827d') in 2.408955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Food/Gingerbread.prefab
-  artifactKey: Guid(c67fbccdd0d6b774fab6243684a0b2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Food/Gingerbread.prefab using Guid(c67fbccdd0d6b774fab6243684a0b2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fa3788bf2f2ca098722fe11fbcc141') in 0.012555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/TwitchJamRespaldo/Shared/Environment/Models/FloorLong.fbx
-  artifactKey: Guid(446cd81926e0f8f41ba901232882f7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Shared/Environment/Models/FloorLong.fbx using Guid(446cd81926e0f8f41ba901232882f7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9557fb64bba86f5764b9d4690bd856b9') in 0.052208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TwitchJamRespaldo/Scenes/Main/Lightmap-1_comp_dir.png
-  artifactKey: Guid(930c85f85f52ab0498118329c192ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Scenes/Main/Lightmap-1_comp_dir.png using Guid(930c85f85f52ab0498118329c192ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aedd2c4230156123552d1afdafaf57e') in 0.207195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/PlayHolderWeapon/M4Shootgun-TestModel.prefab
-  artifactKey: Guid(15319e7046d83aa4cb87a411d569631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/PlayHolderWeapon/M4Shootgun-TestModel.prefab using Guid(15319e7046d83aa4cb87a411d569631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f486c57aca9e273ee7e8223413a5c7') in 0.004911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/TwitchJamRespaldo/Settings/High_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(f0dcd34948f443c498661a4046bd505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Settings/High_PipelineAsset_ForwardRenderer.asset using Guid(f0dcd34948f443c498661a4046bd505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5957fac154f1173d7bd6641902251a9b') in 0.003454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/TwitchJamRespaldo/_TerrainAutoUpgrade/layer_tileGround3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(cc89cb1018db4744d8e7e1febe712382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/_TerrainAutoUpgrade/layer_tileGround3d3aba195e4d26ee.terrainlayer using Guid(cc89cb1018db4744d8e7e1febe712382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c3368aa313e227ea0248f6b76eaabe') in 0.039314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Katana/Texture/PNG/Katana_Roughness.png
-  artifactKey: Guid(e80fb62ba75fa1249a2c5a9ce59feb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Katana/Texture/PNG/Katana_Roughness.png using Guid(e80fb62ba75fa1249a2c5a9ce59feb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e9ede52595cecc37edd7e096dbf864') in 0.168844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TwitchJamRespaldo/Shared/Environment/Models/LongOverhangWall.fbx
-  artifactKey: Guid(8e725cb41275efd4b90ded8d12a97e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Shared/Environment/Models/LongOverhangWall.fbx using Guid(8e725cb41275efd4b90ded8d12a97e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d4387218e1c60e84a3f270a8a8901b') in 0.062731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/TwitchJamRespaldo/Shared/Environment/Materials/Light.mat
-  artifactKey: Guid(47fbc90daa91ab541984ebd9f72db2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Shared/Environment/Materials/Light.mat using Guid(47fbc90daa91ab541984ebd9f72db2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86c34b6ad698a5a4ddb70abedf2741a') in 0.129057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TwitchJamRespaldo/Scenes/Main/Lightmap-0_comp_dir.png
-  artifactKey: Guid(d23ce938ae7d9b24bb791e4a71d3388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Scenes/Main/Lightmap-0_comp_dir.png using Guid(d23ce938ae7d9b24bb791e4a71d3388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd3c3ea32e6d0fe9337e220797e24c') in 0.078747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Katana/Texture/PNG/Katana_Gloss.png
-  artifactKey: Guid(f995e5ceffe0d644d83f7144884d8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Katana/Texture/PNG/Katana_Gloss.png using Guid(f995e5ceffe0d644d83f7144884d8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d710e4fba33b59ddcbfcb9ae4132d6') in 0.164660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/TimeControll/Scripts/GrayscaleLayers.cs
-  artifactKey: Guid(d2eb2f080c7f30a438a6bd30e02df4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/TimeControll/Scripts/GrayscaleLayers.cs using Guid(d2eb2f080c7f30a438a6bd30e02df4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bf978fcc244a29c527ae646cb82e2c') in 0.016890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/TwitchJamRespaldo/Settings/High_PipelineAsset.asset
-  artifactKey: Guid(2bdff7c34b2fa2740b3f15392a274714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Settings/High_PipelineAsset.asset using Guid(2bdff7c34b2fa2740b3f15392a274714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eba4198bc19a8c8a93592080b480932') in 0.014365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Fireplace Log 2.prefab
-  artifactKey: Guid(06a543ff1b5612740828585ad19e214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Fireplace Log 2.prefab using Guid(06a543ff1b5612740828585ad19e214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137ccd73101f99ec790bbb74df975241') in 0.012729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TwitchJamRespaldo/_TerrainAutoUpgrade/layer_GrassRockyAlbedo3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(f40f26886778c634dac79ab2d00393bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/_TerrainAutoUpgrade/layer_GrassRockyAlbedo3d3aba195e4d26ee.terrainlayer using Guid(f40f26886778c634dac79ab2d00393bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bbf6ad1e63794a7191d2928c37765f') in 0.007633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Scene/GameRef.prefab
-  artifactKey: Guid(7606b2d6129a77941a705485642322b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Scene/GameRef.prefab using Guid(7606b2d6129a77941a705485642322b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
-Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'b1261c124407f201cd0b7c2fddeb568a') in 0.677307 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006303 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.428 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1430ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1080ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (425ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (414ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (27.1 KB). Loaded Objects now: 3612.
-Memory consumption went from 114.0 MB to 114.0 MB.
-Total: 9.441700 ms (FindLiveObjects: 0.873800 ms CreateObjectMapping: 0.271800 ms MarkObjects: 8.249500 ms  DeleteObjects: 0.045500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 446.160253 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/Shootgun.prefab
-  artifactKey: Guid(13242ba05e447e64ebd46b217bef8b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/Shootgun.prefab using Guid(13242ba05e447e64ebd46b217bef8b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c923412d1f474dc984676a59f388b934') in 0.081434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/ppk_2D.prefab
-  artifactKey: Guid(6677f518e7b29a74599e1bb55fad5cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/ppk_2D.prefab using Guid(6677f518e7b29a74599e1bb55fad5cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f322bfef9c92ef603a12edc79b146229') in 0.080548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.836313 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/PlayHolderWeapon/Calico-TestModel.prefab
-  artifactKey: Guid(82071cfecc9d3c6429874c01e1530167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/PlayHolderWeapon/Calico-TestModel.prefab using Guid(82071cfecc9d3c6429874c01e1530167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9b846d3aa6930447c9a31a0a0afc65') in 0.012989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/PlayHolderWeapon/MP5K-TestModel.prefab
-  artifactKey: Guid(6c1eb61f22a0871429a6a38a4d4e3cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Weapons/PlayHolderWeapon/MP5K-TestModel.prefab using Guid(6c1eb61f22a0871429a6a38a4d4e3cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954447fc4b91683f27c9310cad3af378') in 0.005919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.909918 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Player/Player And Game Management Variant.prefab
-  artifactKey: Guid(0e81be0621fb3274da915682ce5367ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Player/Player And Game Management Variant.prefab using Guid(0e81be0621fb3274da915682ce5367ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568fcbf9b984f50490ed45454f5270e7') in 0.008262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TwitchJamRespaldo/JamGame/Prefabs/Player/Possession Elements.prefab
-  artifactKey: Guid(fe0e88049ef8a084f936e2b812136f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/JamGame/Prefabs/Player/Possession Elements.prefab using Guid(fe0e88049ef8a084f936e2b812136f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8506aa29af86b84258ed4bfba3e731a1') in 0.035062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.697571 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/Weapons/ppk.prefab
-  artifactKey: Guid(b7335c876a44d3c48bb57e5dfce2a490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/Weapons/ppk.prefab using Guid(b7335c876a44d3c48bb57e5dfce2a490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c469c2b052a40c203b7e542da4a939') in 0.019272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TwitchJamRespaldo/Prefabs/Weapons/Shootgun.prefab
-  artifactKey: Guid(ef2f0764e75444048a06f469a08979e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/Prefabs/Weapons/Shootgun.prefab using Guid(ef2f0764e75444048a06f469a08979e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23877aa314d9a786c2bd852dc81b9cc0') in 0.014813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.939572 seconds.
-  path: Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Candle (alt).prefab
-  artifactKey: Guid(79893984ee000cc489ebdbb01d280f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Candle (alt).prefab using Guid(79893984ee000cc489ebdbb01d280f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b6197063d91048a480d3619063d11a') in 0.082692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Small Photo.prefab
-  artifactKey: Guid(9b3c0a6b09c9dfc468d3ad53f59d5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Small Photo.prefab using Guid(9b3c0a6b09c9dfc468d3ad53f59d5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713ead5bcbc46a1b38b12076096c4206') in 0.027658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Simple Carrot.prefab
-  artifactKey: Guid(8d54c07e1878a2c4bbadce16672225b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchJamRespaldo/VNB - Xmas Mini-Set/Prefabs/Other/Simple Carrot.prefab using Guid(8d54c07e1878a2c4bbadce16672225b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe5e526b8a949b27d5d0e068a964b81') in 0.018122 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005747 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.643 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1644ms)
-		BeginReloadAssembly (201ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1293ms)
-			LoadAssemblies (131ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (519ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (507ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (322ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3616.
-Memory consumption went from 113.7 MB to 113.7 MB.
-Total: 4.577000 ms (FindLiveObjects: 0.343900 ms CreateObjectMapping: 0.371700 ms MarkObjects: 3.819100 ms  DeleteObjects: 0.041300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005191 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\PhysicUnity\PhysicsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.518 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1519ms)
-		BeginReloadAssembly (207ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (148ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (510ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (404ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.8 KB). Loaded Objects now: 3619.
-Memory consumption went from 113.7 MB to 113.7 MB.
-Total: 3.431600 ms (FindLiveObjects: 0.252800 ms CreateObjectMapping: 0.151500 ms MarkObjects: 2.999100 ms  DeleteObjects: 0.026900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Registered in 0.009111 seconds.
