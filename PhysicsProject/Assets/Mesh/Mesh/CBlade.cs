@@ -17,6 +17,8 @@ public class CBlade : MonoBehaviour
     [SerializeField]
     private GameObject _base = null;
 
+    [SerializeField]
+    private GameObject _baseTwo = null;
 
 
     [SerializeField]
@@ -89,6 +91,14 @@ public class CBlade : MonoBehaviour
         _vertices[_frameCount + 3] = _tip.transform.localPosition; 
         _vertices[_frameCount + 4] = _blade.transform.localPosition;
         _vertices[_frameCount + 5] = _base.transform.localPosition;
+
+        _vertices[_frameCount + 6] = _blade.transform.localPosition;
+        _vertices[_frameCount + 7] = _baseTwo.transform.localPosition;
+        _vertices[_frameCount + 8] = _base.transform.localPosition;
+        _vertices[_frameCount + 9] = _base.transform.localPosition;
+        _vertices[_frameCount + 10] = _baseTwo.transform.localPosition;
+        _vertices[_frameCount + 11] = _blade.transform.localPosition;
+        //_vertices[_frameCount + 11] = _blade.transform.localPosition;
         //_vertices = new Vector3[]
         //{
         _triangles[_frameCount] = _frameCount;
@@ -97,6 +107,13 @@ public class CBlade : MonoBehaviour
         _triangles[_frameCount + 3] = _frameCount + 3;
         _triangles[_frameCount + 4] = _frameCount + 4;
         _triangles[_frameCount + 5] = _frameCount + 5;
+        _triangles[_frameCount + 6] = _frameCount + 6;
+        _triangles[_frameCount + 7] = _frameCount + 7;
+        _triangles[_frameCount + 8] = _frameCount + 8;
+        _triangles[_frameCount + 9] = _frameCount + 9;
+        _triangles[_frameCount + 10] = _frameCount + 10;
+        _triangles[_frameCount + 11] = _frameCount + 11;
+
         //};
         //_triangles = new int[]
         //{
