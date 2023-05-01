@@ -49,7 +49,9 @@ public class CBlade : MonoBehaviour
      void Start()
     {
         _meshParent.transform.position = Vector3.zero;
+        
         _mesh = new Mesh();
+        
         GetComponent<MeshFilter>().mesh = _mesh;
         //_meshParent.GetComponent<MeshFilter>().mesh = _mesh;
         //_vertices = new Vector3[_t]
@@ -81,12 +83,12 @@ public class CBlade : MonoBehaviour
         //_vertices[_frameCount + 3] = _base.transform.position;
         //_vertices[_frameCount + 4] = _previousTipPosition;
         //_vertices[_frameCount + 5] = _tip.transform.position;
-        _vertices[_frameCount] = _base.transform.position;
-        _vertices[_frameCount + 1] = _tip.transform.position;
-        _vertices[_frameCount + 2] = _blade.transform.position;
-        _vertices[_frameCount + 3] = _base.transform.position;
-        _vertices[_frameCount + 4] = _blade.transform.position;
-        _vertices[_frameCount + 5] = _tip.transform.position;
+        _vertices[_frameCount] = _base.transform.localPosition;
+        _vertices[_frameCount + 1] = _blade.transform.localPosition;
+        _vertices[_frameCount + 2] = _tip.transform.localPosition;
+        _vertices[_frameCount + 3] = _tip.transform.localPosition; 
+        _vertices[_frameCount + 4] = _blade.transform.localPosition;
+        _vertices[_frameCount + 5] = _base.transform.localPosition;
         //_vertices = new Vector3[]
         //{
         _triangles[_frameCount] = _frameCount;
@@ -112,5 +114,6 @@ public class CBlade : MonoBehaviour
         _mesh.triangles = _triangles;
 
         _mesh.RecalculateNormals();
+
     }
 }
